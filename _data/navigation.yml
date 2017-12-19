@@ -1,12 +1,21 @@
-# main links
-main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+# Site navigation links
+
+- title: 网站设计与制作
+  url: /teaching/
+  excerpt: "网页设计与制作"
+  image: 300x200.gif
+
+- title: 信息可视化
+  url: /i18nl10n/
+  excerpt: "信息可视化"
+  image: 300x200.gif
+
+- title: 学习笔记
+  url: /SDG/
+  excerpt: "notebook"
+  image: 300x200.gif
+
+- title: Contact 联络我
+  url: /contact/
+  excerpt: "联络我"
+  image: 300x200.gif  
