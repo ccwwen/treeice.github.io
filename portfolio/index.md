@@ -11,12 +11,12 @@ categories: portfolio visualization
 ## 目标1：在全世界消除一切形式的贫困
 生活在极端贫困中的人口数量显著下降   
 <div class="row">
-<div class="col-md-3">
+<div class="col-md-4">
 <img src="https://unstats.un.org/sdgs/report/2017/svg/goal-01.svg" alt="" style="width: 100%" type="image/svg+xml">
 社保系统对脆弱人群的覆盖率仍然不高
 </div>
 让世界各地的人们得到所需的支持以摆脱一切形式的贫困，是可持续发展的本质。
-<div class="col-md-9" markdown="1">
+<div class="col-md-8" markdown="1">
 让世界各地的人们得到所需的支持以摆脱一切形式的贫困，是可持续发展的本质。
 目标1侧重于通过促进社会保障制度、体面就业和加强穷人的抗风险能力建设等相关战略来消除贫困。
 
