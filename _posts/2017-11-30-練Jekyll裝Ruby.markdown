@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "欲練Jekyll神功，必先自裝Ruby"
+title:  "欲練Jekyll神功"
 date:   2017-11-30 22:07:50 +0800
 categories: Jekyll Ruby update
 ---
