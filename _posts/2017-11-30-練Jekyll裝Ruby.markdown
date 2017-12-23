@@ -1,10 +1,10 @@
 ---
 layout: default
-title:  "欲練Jekyll神功，必先自裝Ruby"
+title:  "欲練Jekyll神功"
 date:   2017-11-30 22:07:50 +0800
 categories: Jekyll Ruby update
 ---
-欲練 `Jekyll` 神功，必先自裝 `Ruby` 這腳本語言的開發環境。
+欲練 `Jekyll` 神。
 
 現在2017年年底的情境下，在微軟視窗環境裝 `Ruby` ，可以使用[RubyInstaller for Windows][rubyinstaller] 減少不必要的痛苦及麻煩。仍會遇到點問題，請細讀以下內容做準備。
 
