@@ -71,12 +71,17 @@
 			}
 			&:after {
 				width: 0;
-				background: $black;
+			.linear-gradient{
+                background-color: linear-gradient(#FF6347, #FFA07A);
 			}
 			&:active:after,
 			&:hover:after {
 				width: 100%;
 			}
+ 			&:hover {
+  				color: $oxfordblue;
+  				background-color:  #FF7F00;
+ 			}       
 		}
 	}
 }
