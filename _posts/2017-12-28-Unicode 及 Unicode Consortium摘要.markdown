@@ -4,6 +4,7 @@ title:  "Unicode 及 Unicode Consortium的摘要"
 date:   2017-12-28 13:24:50 +0800
 categories: Unicode
 ---
+
 # 简介
 - 统一码/国际通用码（`Unicode`），让数字及万维网的文本得以全球化，是万维网网页标准的基础。
 
@@ -57,7 +58,7 @@ U+1F600
 - 加入11个表情符号，可以搭配不同的姓别及肤色
 
 ## 8、在缅甸的罗兴亚人
-  ● 2017年底，Unicode联盟考虑编码“Hanifi Rohingya”的书写系统
+- 2017年底，Unicode联盟考虑编码“Hanifi Rohingya”的书写系统
 
  [Unicode 及 Unicode Consortium][Unicode]
 [Unicode]: https://note.youdao.com/share/?token=15FEDD32D25B4083BFF2193C8C6364F3&gid=59950065#/
