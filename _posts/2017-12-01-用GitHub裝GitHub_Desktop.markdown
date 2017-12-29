@@ -1,25 +1,64 @@
 ---
 layout: default
-title:  "欲用GitHub空間，可先自裝GitHub Desktop"
-date:   2017-12-01 22:07:50 +0800
-categories: Jekyll GitHub update
+title:  "如何增加导航栏进一步的页面"
+date:   2017-12-29 19:28:50 +0800
+categories: RWD
 ---
-欲用 `GitHub` 空間，可先自裝 [GitHub Desktop][GitHub_Desktop] 這開發環境工具。
+# 增加SDG页面
 
-## 怎样裝 GitHub Desktop？
-
-現在2017年年底的情境下，在中國的網絡環境裝 `GitHub Desktop`，有時會考驗著所在地區的網路速度和安裝人的人品。
-
-- 註冊一個免費去[Github 官网][Github官网] 注册( `Sign Up` )一个账号，账号名請選你打算行走世界的名號，先佔先有
-- 去 [GitHub Desktop][GitHub_Desktop] 頁面下載客戶端 
-
-若從官網下載不了，可搜索較新的離線安裝版本，或找朋友們試試。
-
-## 怎样使用 GitHub？
-
-在知乎上有[一个文科妹子分享了其半年摸索才明白的經驗][文科妹子用GitHub]，可以參考。
+> 首先要做好导航栏这步才能做到接下来要说的页面
 
 
-[GitHub_Desktop]: https://desktop.github.com/
-[Github官网]: https://github.com/
-[文科妹子用GitHub]: https://www.zhihu.com/question/20070065 
+![image](http://m.qpic.cn/psb?/V13hHmxu1vMZsZ/nRm6iHwxw0FuHRS*4x0IDCKcP1Gq6uJ2hSJLD*ip0zI!/b/dGgBAAAAAAAA&bo=4AMVAQAAAAADB9U!&rf=viewer_4)
+老师的是导航栏是SDG，而我的是作品集，我就以我的来举例。老师的：![image](http://m.qpic.cn/psb?/V13hHmxu1vMZsZ/aZEzzyNY.U*ZDypT44D91m*FAgOnC*dlm4nqwx.xIN8!/b/dPIAAAAAAAAA&bo=pAFDAAAAAAADB8Q!&rf=viewer_4)我的：![image](http://m.qpic.cn/psb?/V13hHmxu1vMZsZ/21CRBYRVK9yF2qpWf*lHBYPKwUtaY7zIbDKxgOsVA10!/b/dF4BAAAAAAAA&bo=jQE2AAAAAAADB5g!&rf=viewer_4)
+
+---
+
+
+
+
+
+- 首先找到navigation.yml这个文件夹，每个人的模板不同可能在的位置会不一样。
+ ![image](http://m.qpic.cn/psb?/V13hHmxu1vMZsZ/3U6LirvLB0qNVr.i*f9z3Igwm5E5m*xawGbaBNg5voU!/b/dF4BAAAAAAAA&bo=5gGhAAAAAAADB2Q!&rf=viewer_4)
+
+- 用notepad++打开看到作品集下面的url：/portfolio/，这个是需要我们自己添加的的文件夹。
+![image](http://m.qpic.cn/psb?/V13hHmxu1vMZsZ/HYuviRm6TwtKbfxbDdHpTr0nUhFS52XOkgQOI6sgcEc!/b/dPIAAAAAAAAA&bo=8QBWAQAAAAADF5Q!&rf=viewer_4)
+- 打开github desktop，按ctrl+shift+f,找到本地端的文件夹所在后，新建一个portfolio文件夹。
+
+- 将 index.md 文档（这个文档可以找我要）放入portfolio，然后在desktop上更新数据到云端，现在在你的博客上点击作品集一栏就可以看到我们刚刚放进去的页面。
+
+---
+# 使用Bootstrap Grid System和markdown语法在HTML中的显示
+
+
+> 这一步主要是教你如何在你刚刚添加的页面上进行布局的修改，以及如何让markdown语法在HTML中显示。
+
+
+- 在刚刚的本地端文件夹中找到_layouts/default.html这个文件，在<head>标签里面加入这段代码：
+
+```
+<!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+```
+![image](http://m.qpic.cn/psb?/V13hHmxu1vMZsZ/5T6UD6METYhEQVzCBks7izQ.bgTS68NAQZ8kFtUE8mc!/b/dD8BAAAAAAAA&bo=wgH1AAAAAAADBxQ!&rf=viewer_4)
+这行代码是栅格系统的免费免安装形式的代码，Bootstrap提供了一套响应式、移动设备优先的流式栅格系统，随着屏幕或视口（viewport）尺寸的增加，系统会自动分为最多12列。它包含了易于使用的预定义类，还有强大的mixin 用于生成更具语义的布局。
+  
+  
+++只有添加了这行代码，后面的布局设置才会生效！++
+
+---
+没有修改布局之前的index页面的图片是占据整个屏幕的，字也堆积在图片后面。
+
+- 用notepad++打开你添加的index.md的文档，在文章中，在你想要进行分割的地方添加代码。
+![image](http://m.qpic.cn/psb?/V13hHmxu1vMZsZ/f9hQykGRV7uwKRiXRAFu.pWdoJMS9HBTOEwYPN.41YM!/b/dF8BAAAAAAAA&bo=xQOZAQAAAAARF34!&rf=viewer_4)
+
+这样我们就将图片和文字分为左边一栏和右边一栏。
+
+![image](http://m.qpic.cn/psb?/V13hHmxu1vMZsZ/Ihv*fCfXZ4VXfQwsOYuheE7QcUkgQ361H*5gh19.Y8A!/b/dPMAAAAAAAAA&bo=7wNbAQAAAAARF5Y!&rf=viewer_4)
+- 加入以下代码，要特别注意的是要记得结尾</div>
+```
+<div class="row">
+<div class="col-md-3"><!-- left -->
+<div class="col-md-9" markdown="1" ><!-- right -->
+```
+- 大家想要进一步了解栅格系统以及布局，可以 [参考全局 CSS样式](http://v3.bootcss.com/css/)
