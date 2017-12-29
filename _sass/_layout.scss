@@ -71,17 +71,12 @@
 			}
 			&:after {
 				width: 0;
-			.linear-gradient{
-                background-color: linear-gradient(#FF6347, #FFA07A);
-			}
+				background: $black;
 			&:active:after,
 			&:hover:after {
 				width: 100%;
 			}
- 			&:hover {
-  				color: #FFA07A;
-  				background-color:  #FF7F00;
- 			}       
+
 		}
 	}
 }
