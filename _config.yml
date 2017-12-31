@@ -10,7 +10,8 @@ feed:
   path: atom.xml
 
 # Jekyll configuration
-
+source:      _source
+destination: _deploy
 sass:
   sass_dir: _sass
   style: compressed
@@ -23,8 +24,8 @@ gems:
   - jekyll-gist
   - jekyll-feed
 
-
-# Site owner
+  
+  # Site owner
 owner:
   name: 陈文娟
   email: 515799823@qq.com
