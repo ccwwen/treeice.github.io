@@ -1,21 +1,21 @@
 # Site navigation links
 
-- title: Web design
-  url: /Web design/
-  excerpt: "多看书多学习"
+- title: 枫露茶
+  url: /rwd/
+  excerpt: "网页设计与制作"
   image: 300x200.gif
 
-- title: Tableau
-  url: /Tableau/
-  excerpt: "有点头疼的课程"
+- title: 屠苏酒 
+  url: /infovis/
+  excerpt: "信息可视化"
   image: 358×196.gif
 
-- title: 作品集
+- title: 合欢汤
   url: /portfolio/
   excerpt: "在努力做的作品"
   image: 292x178.gif
 
-- title: Contact
+- title: 木樨清露
   url: /contact/
   excerpt: "联络我"
   image: 233.jpg
