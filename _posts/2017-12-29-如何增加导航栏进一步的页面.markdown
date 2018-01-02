@@ -2,7 +2,10 @@
 layout: default
 title:  "如何增加导航栏进一步的页面"
 date:   2017-12-29 19:28:50 +0800
-categories: RWD
+categories: rwd
+image:
+  teaser: abc.png
+  feature: abc.png
 ---
 # 增加SDG页面
 
