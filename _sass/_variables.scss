@@ -6,8 +6,8 @@
    Typography variables
    ========================================================================== */
 
-$base-font                   	:  "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
-$heading-font                	: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+$base-font                   	: Georgia,Times,"Times New Roman",serif;
+$heading-font                	: "Helvetica Neue","Segoe UI",Arial,sans-serif;
 $caption-font                	: $base-font;
 $code-font                   	: monospace;
 $alt-font                    	: $heading-font;
@@ -19,27 +19,28 @@ $border-radius               	: 3px;
 
 /*
    Color variables
-   Background:	bwhite rgba(255,255,255,0.9)
-   white #ffffff
-   text-color:	#595959
+   Background : Blue #003d79  http://encycolorpedia.cn/003d79 
+   Aliceblue  #f0f8ff 
+   text-color: white
    ========================================================================== */
 
 $white                        : #fff;
 $black                        : #000;
-$bwhite						  :	rgba(255,255,255,0.9);
-$teal           			  :	#008080
+$blue                       : #003D79; 
+$Aliceblue                  : #f0f8ff; 
+$blue                       : #D2E9FF;
 
 $body-color                  	: #ebebeb;
 
-$text-color                  	: #595959;
+$text-color                  	: #313130;
 $caption-color                : mix($white, $text-color, 25%);
 
-$base-color                  	: $bwhite;
+$base-color                  	: #003D79;
 $comp-color                  	: complement($base-color);
 $border-color                	: #ddd;
 $link-color                  	: #222;
 
-$primary-color               	: $bwhite;
+$primary-color               	: #003D79;
 $success-color               	: #2ecc71;
 $warning-color               	: #f1c40f;
 $danger-color                	: #e74c3c;
@@ -85,11 +86,11 @@ $form-font-size              	: $doc-font-size;
    Sliding menu navigation variables
    ========================================================================== */
 
-$sliding-menu-border-color	 	 : $bwhite;
-$sliding-menu-background 		   : $bwhite;
-$sliding-menu-color 	 		     : #595959;
-$sliding-menu-background-hover : $bwhite;
-$sliding-menu-color-hover	 	   : $white;
+$sliding-menu-border-color	 	 : $black;
+$sliding-menu-background 		   : $black;
+$sliding-menu-color 	 		     : $white;
+$sliding-menu-background-hover : $black;
+$sliding-menu-color-hover	 	   : $Aliceblue;
 $sliding-menu-border   			   : 1px solid $sliding-menu-border-color;
 $button-size		         	     : 30px;
 $transition						         : 0.3s; // increase this to see the transformations in slow-motion
