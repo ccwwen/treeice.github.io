@@ -62,8 +62,8 @@
 				position: absolute;
 				top: 0;
 				left: 0;
-				height: 2px;
-				@include transition(width 0.3s);
+				height: 3px;
+				@include transition(width 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55));
 			}
 			&:before {
 				width: 100%;
@@ -71,11 +71,15 @@
 			}
 			&:after {
 				width: 0;
-				background: $black;
+				background: #008000;
 			}
 			&:active:after,
 			&:hover:after {
 				width: 100%;
+			}
+			&:hover {
+				color: #008000;
+				background-color: $white;
 			}
 		}
 	}
@@ -105,7 +109,7 @@
 			font-weight: 700;
 			@include font-size(16,no);
 			line-height: .5 * $masthead-height; // half the height to center vertically
-			color: $black;
+			color: #595959;
 			text-transform: uppercase;
 		}
 	}
