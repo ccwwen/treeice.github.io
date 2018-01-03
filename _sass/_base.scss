@@ -10,9 +10,7 @@ body {
 	font-family: $base-font;
 	color: $text-color;
 	background-image: 
-       linear-gradient( rgba(254, 254, 250, 0.8), 		
-           	rgba(254, 254, 250, 0.5)),  
-       url('https://zhengtingeing.github.io/images/111.png'); 
+      url('../images/aaa.jpg'); 
 	@include font-size(16);
 }
 
