@@ -1,8 +1,8 @@
 # Site navigation links
 
 - title: 枫露茶
-  url: /posts/rwd/
-  excerpt: "网页设计与制作"
+  url: /notes/rwd/
+  excerpt: "网页设计与制作笔记"
   image: 300x200.gif
 
 - title: 屠苏酒 
@@ -16,6 +16,6 @@
   image: 292x178.gif
 
 - title: 木樨清露
-  url: /posts/infovis/
-  excerpt: "笔记"
+  url: /notes/infovis/
+  excerpt: "信息可视化笔记"
   image: 233.jpg
