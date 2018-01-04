@@ -1,19 +1,18 @@
 ---
-layout: article
-title:  "期中小组项目"
-categories: infovis
-image:
-  teaser: tableaulogo.jpg
-  feature: tableaulogo.jpg
+layout: archive
+title: "网页设计笔记"
+date: 2018-1-1T14:25:45-04:00
+modified:
+excerpt: "( ´·ᴗ·` )"
+tags: []
+image: 
+  feature: notes.gif
+  teaser:
 ---
-## M组期中项目
-
-### 专题简述
->  能源是人们日常生活的必备要素，也是实现GDP增长的根本动力。所以我们组从能源消费量与GDP的关系、单 位GDP能耗、能源消费结构等方面探讨中国的经济发展与节能减耗,提出协调能源消费与经济发展的想法与建议。
 
 
-
-
-### 作品链接
-
-[M组期中项目](https://wanlihon.github.io/m/)
+<div class="tiles">
+{% for post in site.categories.rwd %}
+  {% include post-grid.html %}
+{% endfor %}
+</div><!-- /.tiles 把所有categories 有 rwd 的列出来-->
