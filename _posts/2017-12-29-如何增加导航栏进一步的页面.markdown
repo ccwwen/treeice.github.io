@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: article
 title:  "如何增加导航栏进一步的页面"
 date:   2017-12-29 19:28:50 +0800
 categories: rwd
@@ -57,11 +57,4 @@ image:
 
 这样我们就将图片和文字分为左边一栏和右边一栏。
 
-![image](http://m.qpic.cn/psb?/V13hHmxu1vMZsZ/Ihv*fCfXZ4VXfQwsOYuheE7QcUkgQ361H*5gh19.Y8A!/b/dPMAAAAAAAAA&bo=7wNbAQAAAAARF5Y!&rf=viewer_4)
-- 加入以下代码，要特别注意的是要记得结尾</div>
-```
-<div class="row">
-<div class="col-md-3"><!-- left -->
-<div class="col-md-9" markdown="1" ><!-- right -->
-```
-- 大家想要进一步了解栅格系统以及布局，可以 [参考全局 CSS样式](http://v3.bootcss.com/css/)
+![image](http://m.qpic.cn/psb?/V13hHmxu1vMZsZ/Ihv*fCf
