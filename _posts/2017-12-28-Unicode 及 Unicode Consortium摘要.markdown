@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: article
 title:  "Unicode 及 Unicode Consortium的摘要"
 date:   2017-12-28 13:24:50 +0800
 categories: rwd
