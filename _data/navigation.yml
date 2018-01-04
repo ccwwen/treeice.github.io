@@ -1,7 +1,7 @@
 # Site navigation links
 
 - title: 枫露茶
-  url: /rwd/
+  url: /posts/rwd/
   excerpt: "网页设计与制作"
   image: 300x200.gif
 
@@ -16,6 +16,6 @@
   image: 292x178.gif
 
 - title: 木樨清露
-  url: /contact/
-  excerpt: "联络我"
+  url: /posts/infovis/
+  excerpt: "笔记"
   image: 233.jpg
