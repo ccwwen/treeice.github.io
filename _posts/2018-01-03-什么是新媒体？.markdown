@@ -2,7 +2,7 @@
 layout: article
 title:  "什么是新媒体？"
 date:   2018-01-03 22:07:50 +0800
-categories: Portfolio
+categories: portfolio
 image:
   teaser: bbb.jpg
   feature: bbb.jpg
