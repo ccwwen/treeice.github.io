@@ -7,7 +7,7 @@ excerpt: "( ´·ᴗ·` )"
 tags: []
 image: 
   feature: notes.gif
-  teaser:
+  teaser: notes.gif
 ---
 
 
