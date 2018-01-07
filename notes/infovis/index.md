@@ -6,8 +6,8 @@ modified:
 excerpt: "- -"
 tags: []
 image: 
-  feature: visualization.png
-  teaser:
+  feature: visualization.gif
+  teaser: visualization.gif
 ---
 
 
