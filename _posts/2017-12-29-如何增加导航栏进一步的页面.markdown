@@ -4,8 +4,8 @@ title:  "如何增加导航栏进一步的页面"
 date:   2017-12-29 19:28:50 +0800
 categories: rwd
 image:
-  teaser: post.jpg
-  feature: post.jpg
+  teaser: post.png
+  feature: post.png
 ---
 # 增加SDG页面
 
